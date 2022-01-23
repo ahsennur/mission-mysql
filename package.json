@@ -1,0 +1,21 @@
+{
+  "name": "task-mysql",
+  "version": "1.0.0",
+  "description": "Tasks app with mysql",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Ahsen Türksoy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.41"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
